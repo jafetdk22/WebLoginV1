@@ -5735,9 +5735,9 @@ fieldset:disabled .btn {
 }
 
 .alert-danger {
-  --bs-alert-color: #932037;
-  --bs-alert-bg: #fdd7de;
-  --bs-alert-border-color: #fcc3ce;
+    --bs-alert-color: #58151c;
+    --bs-alert-bg: rgb(248 215 218);
+    --bs-alert-border-color: rgba(250, 62, 81, 0.863);
 }
 
 .alert-danger .alert-link {
@@ -5745,9 +5745,9 @@ fieldset:disabled .btn {
 }
 
 .alert-light {
-  --bs-alert-color: #5d5e60;
-  --bs-alert-bg: #fbfbfc;
-  --bs-alert-border-color: #f8f9fa;
+    --bs-alert-color: #5d5e60;
+    --bs-alert-bg: rgba(153, 67, 100, 0.296);
+    --bs-alert-border-color: #f8f9fa;
 }
 
 .alert-light .alert-link {
@@ -20097,37 +20097,6 @@ fieldset:disabled .btn {
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-.alert-primary {
-  background-image: linear-gradient(310deg, #5e72e4 0%, #673bde 100%);
-}
-
-.alert-secondary {
-  background-image: linear-gradient(310deg, #627594 0%, #8ca1cb 100%);
-}
-
-.alert-success {
-  background-image: linear-gradient(310deg, #2dce89 0%, #26adab 100%);
-}
-
-.alert-info {
-  background-image: linear-gradient(310deg, #1171ef 0%, #0eadca 100%);
-}
-
-.alert-warning {
-  background-image: linear-gradient(310deg, #fb6340 0%, #faa118 100%);
-}
-
-.alert-danger {
-  background-image: linear-gradient(310deg, #f5365c 0%, #f3410f 100%);
-}
-
-.alert-light {
-  background-image: linear-gradient(310deg, #CED4DA 0%, #d1dae6 100%);
-}
-
-.alert-dark {
-  background-image: linear-gradient(310deg, #212229 0%, #0f1112 100%);
-}
 
 .btn-close:focus {
   box-shadow: none;
